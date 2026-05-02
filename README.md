@@ -1,37 +1,46 @@
-🎮 Gaming Console Project
+# 🎮 Gaming Console Project
+
 A simple DIY Gaming Console built using Arduino / ESP32 (or your hardware). This project is designed for learning embedded systems, game logic, and hardware interaction.
 
+---
 
-🚀 Features
-Simple retro-style games (e.g., Snake, Tetris, Pong)
-Button-based control system
-OLED / LCD display support
-Lightweight and fast execution
-Beginner-friendly embedded game system
-🛠️ Hardware Requirements
-Arduino UNO / ESP32 / similar microcontroller
-16x2 LCD or OLED Display (SSD1306 recommended)
-Push Buttons / Joystick
-Buzzer (optional for sound effects)
-Breadboard & jumper wires
-Power supply (USB / battery)
+## 🚀 Features
+- Simple retro-style games (e.g., Snake, Tetris, Pong)
+- Button-based control system
+- OLED / LCD display support
+- Lightweight and fast execution
+- Beginner-friendly embedded game system
 
+---
 
-💻 Software Requirements
-Arduino IDE
-Required libraries:
-Adafruit GFX
-Adafruit SSD1306 (if OLED used)
-LiquidCrystal (if LCD used)
+## 🛠️ Hardware Requirements
+- Arduino UNO / ESP32 / similar microcontroller  
+- 16x2 LCD or OLED Display (SSD1306 recommended)  
+- Push Buttons / Joystick  
+- Buzzer (optional for sound effects)  
+- Breadboard & jumper wires  
+- Power supply (USB / battery)
 
+---
 
-⚙️ How It Works
-Microcontroller initializes display and input buttons
-Game loop runs continuously
-Player input is read from buttons/joystick
-Game logic updates screen in real-time
-Score and state are displayed on screen
+## 💻 Software Requirements
+- Arduino IDE  
 
+### Required Libraries:
+- Adafruit GFX  
+- Adafruit SSD1306 (if OLED used)  
+- LiquidCrystal (if LCD used)
+
+---
+
+## ⚙️ How It Works
+- Microcontroller initializes display and input buttons  
+- Game loop runs continuously  
+- Player input is read from buttons/joystick  
+- Game logic updates screen in real-time  
+- Score and state are displayed on screen  
+
+---
 
 
 ```cpp
