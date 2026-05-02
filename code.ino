@@ -1,4 +1,4 @@
-```cpp
+
 # Game-Console
 TIC TAC TOE
 #include <Wire.h>
@@ -1117,4 +1117,4 @@ void handleGameOverInput(){
     drawMenu();
   }
 }
-```
+
